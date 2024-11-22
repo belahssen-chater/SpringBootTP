@@ -4,6 +4,6 @@ client:
   registerWithEureka: false
   fetchRegistry: false
 serviceUrl:
-  defaultZone: https://localhost:3306/eureka
+  defaultZone: https://localhost:9998/eureka
 
   

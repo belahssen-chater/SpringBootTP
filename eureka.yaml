@@ -1,9 +1,9 @@
 server:
-port: 8070
+  port: 8070
 client:
-registerWithEureka: false
-fetchRegistry: false
+  registerWithEureka: false
+  fetchRegistry: false
 serviceUrl:
-defaultZone: https://localhost:3306/eureka
+  defaultZone: https://localhost:3306/eureka
 
   

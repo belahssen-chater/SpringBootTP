@@ -1,9 +1,11 @@
 server:
   port: 9093
-client:
+
+eureka: 
+ client:
   registerWithEureka: false
   fetchRegistry: false
-serviceUrl:
+ serviceUrl:
   defaultZone: https://localhost:9093/eureka
 
   

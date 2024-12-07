@@ -6,9 +6,9 @@ spring:
   cloud:
     gateway:
         routes:
-          -id:microservice-projet
-          uri:lb://microservice-projet 
-          predicates:
-            -path=/projet/**
-          filtres:
-            -RewritePath=/projet/(?<path>.*), /$\{path}  
+          - id:microservice-projet
+            uri:lb://microservice-projet 
+            predicates:
+            - Path=/projet/**
+            filters:
+            - RewritePath=/projet/(?<path>.*), /$\{path}  
